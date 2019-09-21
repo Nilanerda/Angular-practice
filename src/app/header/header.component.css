@@ -1,0 +1,17 @@
+header {
+  background-color: orange;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.menu li a{
+  padding: 15px;
+}
+
+.menu li a:hover{
+  background-color: #e6e7e5;
+}
