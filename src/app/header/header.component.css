@@ -11,13 +11,39 @@ header {
 .menu li a{
   color: white;
   padding: 25px;
-  display: block;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Turret Road', cursive;
   font-weight: bold;
+  display: block;
+  position: relative;
+
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition-property: color;
+  transition-duration: 0.4s;
 }
 
-.menu li a:hover{
-  background-color: #e6e7e5;
+.menu li a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  transform: scaleX(0);
+  transform-origin: 50% 100%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.menu li a:hover, .menu li a:focus, .menu li a:active {
+  color: orange;
+}
+
+.menu li a:hover:before, .menu li a:focus:before, .menu li a:active:before {
+  transform: scaleX(1);
 }
