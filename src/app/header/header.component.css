@@ -9,7 +9,13 @@ header {
 }
 
 .menu li a{
-  padding: 15px;
+  color: white;
+  padding: 25px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Turret Road', cursive;
+  font-weight: bold;
 }
 
 .menu li a:hover{

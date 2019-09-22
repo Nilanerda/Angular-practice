@@ -1,8 +1,26 @@
-@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Turret+Road:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
 
-  border: 1px solid black;
+main .container {
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Turret Road', cursive;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
 }
