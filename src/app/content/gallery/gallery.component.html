@@ -1,6 +1,10 @@
 <div class="container">
   <h1>My works</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus harum molestiae veritatis. Aliquid aperiam assumenda deleniti dignissimos distinctio dolor illum modi nostrum nulla officia officiis, omnis quibusdam repudiandae, sed tenetur.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus harum molestiae veritatis. Aliquid aperiam assumenda deleniti dignissimos distinctio dolor illum modi nostrum nulla officia officiis, omnis quibusdam repudiandae, sed tenetur.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus harum molestiae veritatis. Aliquid aperiam assumenda deleniti dignissimos distinctio dolor illum modi nostrum nulla officia officiis, omnis quibusdam repudiandae, sed tenetur.</p>
+  <div class="slider">
+    <img src="{{currentImg}}" alt="">
+    <div class="buttons-wrapper">
+      <button (click)="prev()">prev</button>
+      <button (click)="next()">next</button>
+    </div>
+  </div>
 </div>
