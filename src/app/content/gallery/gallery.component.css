@@ -31,5 +31,25 @@
   border-radius: 100%;
   cursor: pointer;
   outline: none;
+}
 
+.slider-desc-items {
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 10px;
+}
+
+.slides-description {
+  color: white;
+}
+
+.slides-description .title {
+  font-size: 1.8rem;
+}
+
+.slides-description .description {
+  font-size: 1.2rem;
 }
